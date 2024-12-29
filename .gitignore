@@ -38,4 +38,6 @@ yarn-error.*
 
 app-example
 
+# lock files
 package-lock.json
+bun.lockb
