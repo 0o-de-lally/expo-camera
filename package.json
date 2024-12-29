@@ -17,7 +17,8 @@
     "expo-dev-client": "~5.0.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@expo/metro-runtime": "^4"
   },
   "name": "expo-camera-test",
   "version": "1.0.0",
