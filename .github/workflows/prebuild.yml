@@ -14,15 +14,17 @@ jobs:
     steps:
     - name: Setup repository
       uses: actions/checkout@v4
-
+    - name: Install packages
+      run: npm install
     - name: prebuild android
       run: npx expo prebuild -p android --clean
 
-  prebuild-ios:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Setup repository
-      uses: actions/checkout@v4
-
-    - name: prebuild ios
-      run: npx expo prebuild -p ios --clean
+  # prebuild-ios:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: Setup repository
+  #     uses: actions/checkout@v4
+  #   - name: Install packages
+  #     run: npm install
+  #   - name: prebuild ios
+  #     run: npx expo prebuild -p ios --clean
