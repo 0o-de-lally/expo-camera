@@ -41,4 +41,6 @@ app-example
 
 # lock files
 package-lock.json
+# Allow the bun lockfile, otherwise EAS uses yarn
 # bun.lockb
+tsconfig.json
