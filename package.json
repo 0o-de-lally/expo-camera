@@ -6,21 +6,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@expo/metro-runtime": "~4.0.0",
     "@types/react": "~18.3.12",
     "expo": "^52.0.16",
     "expo-camera": "~16.0.9",
     "expo-image": "~2.0.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-native": "0.76.3",
+    "react-native": "0.76.5",
     "react-native-web": "~0.19.6",
-    "typescript": "~5.3.3"
+    "expo-dev-client": "~5.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "name": "expo-camera",
+  "name": "expo-camera-test",
   "version": "1.0.0",
   "private": true
 }
