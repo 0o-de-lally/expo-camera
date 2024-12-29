@@ -17,7 +17,7 @@ jobs:
     - name: Install packages
       run: npm install
     - name: prebuild android
-      run: CI=1 npx expo prebuild -p android --clean --no-wait --non-interactive
+      run: CI=1 npx expo prebuild -p android --clean --skip-dependency-update
 
   # prebuild-ios:
   #   runs-on: ubuntu-latest
