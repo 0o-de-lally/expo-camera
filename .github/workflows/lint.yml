@@ -9,11 +9,25 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  mobile:
+  doctor:
     runs-on: ubuntu-latest
     steps:
       - name: Setup repository
         uses: actions/checkout@v4
+
+      - name: Install packages
+        run: npm install
+
+      - name: Build packages
+        run: npx expo-doctor
+
+  bun-compatible:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup repository
+        uses: actions/checkout@v4
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install packages
         run: bun install
