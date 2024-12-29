@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-camera",
-    "slug": "expo-camera",
+    "slug": "carpe-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6b0e4def-c2be-4f8e-afdc-f44ac2b58344"
+      }
+    },
+    "owner": "0o-de-lally"
   }
 }

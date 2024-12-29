@@ -6,6 +6,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~4.0.0",
     "@types/react": "~18.3.12",
     "expo": "^52.0.16",
     "expo-camera": "~16.0.9",
