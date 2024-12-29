@@ -12,8 +12,8 @@
     "expo": "^52.0.16",
     "expo-camera": "~16.0.9",
     "expo-image": "~2.0.3",
-    "react": "18.3.1",
-    "@types/react": "*",
+    "react": "^18",
+    "@types/react": "^18",
     "react-native": "0.76.5"
   },
   "devDependencies": {
