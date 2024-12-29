@@ -17,7 +17,7 @@ jobs:
     - name: Install packages
       run: npm install
     - name: prebuild android
-      run: npx expo prebuild -p android --clean
+      run: yes | npx expo prebuild -p android --clean
 
   # prebuild-ios:
   #   runs-on: ubuntu-latest
