@@ -9,11 +9,20 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  prebuild:
+  prebuild-android:
     runs-on: ubuntu-latest
     steps:
     - name: Setup repository
       uses: actions/checkout@v4
 
     - name: prebuild android
-      uses: npx expo prebuild -p android --clean
+      run: npx expo prebuild -p android --clean
+
+  prebuild-ios:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup repository
+      uses: actions/checkout@v4
+
+    - name: prebuild ios
+      run: npx expo prebuild -p ios --clean
