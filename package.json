@@ -9,16 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "^52.0.16",
-    "expo-camera": "~16.0.9",
-    "expo-image": "~2.0.3",
-    "react": "^18",
     "@types/react": "^18",
-    "react-native": "0.76.5"
+    "react": "^18",
+    "react-native": "0.76.5",
+    "react-native-keychain": "^9.2.2",
+    "react-native-paper": "^5.12.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
     "@expo/metro-runtime": "^4",
+    "expo": "^52.0.16",
     "expo-dev-client": "~5.0.7",
     "react-dom": "^18",
     "react-native-web": "^0.19"
